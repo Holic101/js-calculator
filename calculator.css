@@ -1,0 +1,97 @@
+html {
+	height: 100%;
+	background: white;
+	background: radial-gradient(circle, #fff 20%, #ccc);
+	background-size: cover;
+}
+
+body {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bolder;
+	color: white;
+	font-family: "Verdana";
+}
+
+#main {
+	width: 365px;
+	height: 270px;
+	background-color: darkorange;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0px 4px darkorange, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.keys span {
+	width: 80px;
+	height: 30px;
+	background-color: gray;
+	border-radius: 3px;
+	cursor: pointer;
+	float: left;
+	margin: 5px;
+	padding-top: 5px;
+}
+
+.operator {
+	background-color: pink !important;
+	color: black;
+}
+
+/* Some hover effects */
+.keys span:hover {
+	background: #9c89f6;
+	box-shadow: 0px 4px #6b54d3;
+	color: white;
+}
+
+/* Simulating "pressed" effect on active state of the keys by removing the box-shadow and moving the keys down a bit */
+.keys span:active {
+	box-shadow: 0px 0px #6b54d3;
+	top: 4px;
+}
+
+.top span {
+	float: left;
+	width: 90px;
+	height: 30px;
+	cursor: pointer;
+	background-color: pink;
+	margin: 0 10px 0 5px;
+	border-radius: 3px;
+	padding-top: 1px;
+}
+
+#textbox {
+	width: 250px;
+	height: 30px;
+	margin-bottom: 10px;
+	float: left;
+	background: rgba(0, 0, 0, 0.3);
+	border-radius: 3px;
+	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+	padding-top: 1px;
+}
+
+#equal {
+	width: 350px;
+	height: 30px;
+	background-color: pink;
+	border-radius: 3px;
+	color: black;
+	cursor: pointer;
+	float: left;
+  	margin: 5px;
+}
+
+#equal:hover {
+	background: #9c89f6;
+	box-shadow: 0px 4px #6b54d3;
+	color: white;
+}
+
+#equal:active {
+	box-shadow: 0px 0px #6b54d3;
+	top: 4px;
+}
